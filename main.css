@@ -1,0 +1,25 @@
+.mainPageLogo {
+    size: 48px;
+}
+
+.entireFooter {
+    background-color: lightgrey;
+}
+.upFooter {
+    margin: auto;
+}
+
+.upperFooter {
+    color: grey;
+    text-align: center;
+}
+
+.lowFooter {
+    color: grey;
+    width: 100%;
+    text-align: center;
+}
+
+.lowerFooter {
+    display: inline;    
+}
