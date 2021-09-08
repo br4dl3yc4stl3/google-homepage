@@ -1,5 +1,11 @@
 .mainPageLogo {
-    size: 48px;
+    display: block;
+    max-width: 400px;
+    max-height: 400px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
 }
 
 .entireFooter {
