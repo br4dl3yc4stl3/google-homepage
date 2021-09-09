@@ -8,6 +8,35 @@
     height: auto;
 }
 
+.searchWrapper {
+    position: relative;
+    display: flex;
+    min-width: 100px;
+}
+
+.magnifyingIcon {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    width: 18px;
+}
+
+.micIcon {
+    position: absolute;
+    top: 6px;
+    right: 8px;
+    width: 14px;
+}
+
+.searchBar {
+    border: 1px lightgrey;
+    border-radius: 32px;
+    height: 32px;
+    width: 100%;
+    padding: 2px 40px 2px 40px;
+    outline: 0;
+    background-color: white;
+}
 .entireFooter {
     background-color: lightgrey;
 }
