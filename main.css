@@ -16,26 +16,30 @@
 
 .magnifyingIcon {
     position: absolute;
-    top: 8px;
-    left: 8px;
+    top: 12px;
+    left: 14px;
     width: 18px;
 }
 
 .micIcon {
     position: absolute;
-    top: 6px;
-    right: 8px;
+    top: 11px;
+    right: 14px;
     width: 14px;
 }
 
 .searchBar {
-    border: 1px lightgrey;
+    border: 1.5px solid lightgrey;
     border-radius: 32px;
-    height: 32px;
+    height: 40px;
     width: 100%;
     padding: 2px 40px 2px 40px;
     outline: 0;
     background-color: white;
+}
+
+.searchBar:hover, .searchBar:focus {
+    box-shadow: 1px 1px 1px 1px rgb(236, 236, 236);
 }
 .entireFooter {
     background-color: lightgrey;
