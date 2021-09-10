@@ -10,14 +10,21 @@
 
     <body>
         <div class="topNav">
-            <p class="about topNav">About</p>
-            <p class="store topNav">Store</p>
-            <p class="gmail topNav">Gmail</p>
-            <p class="images topNav">Images</p>
-            <img class="appList topNav" src="/home/howler42/Documents/the_odin_project/google-homepage/categories.png">
-
+            <ul>                
+                <li class="about">About</li>
+                <li class="store">Store</li>
+            </ul>
+            <ul class="topNavRight">
+                <li class="gmail">Gmail</li>
+                <li class="images">Images</li>
+                <li class="appList"><img src="/home/howler42/Documents/the_odin_project/google-homepage/categories.png"></li>
+            </ul>
         </div>
+
+        <div class="mainPageLogo">
         <img class="mainPageLogo" src="/home/howler42/Documents/the_odin_project/google-homepage/googleLogo.png" alt="Google Logo">
+        </div>
+
         <div class="searchWrapper">
             <img class="magnifyingIcon" src="/home/howler42/Documents/the_odin_project/google-homepage/searchIcon.png">
             <input class="searchBar" type="text">
@@ -26,23 +33,17 @@
 
     </body>
     
-    <div class="entireFooter">
+    <div>
         <footer>
-            <div class="upFooter"></div>
-                <p class="upperFooter">
-            Carbon neutral since 2007
-                </p>
-            </div>
-            <div class="lowFooter">
-                <p>
-                    <ul class="lowerFooter">Advertising</ul>
-                    <ul class="lowerFooter">Business</ul>
-                    <ul class="lowerFooter">How Search works</ul>
-                    <ul class="lowerFooter">Privacy</ul>
-                    <ul class="lowerFooter">Terms</ul>
-                    <ul class="lowerFooter">Settings</ul>
-                </p>
-            </div>
+            <ul class="footer">
+                <p>Carbon neutral since 2007</p>
+                <p>Advertising</p>
+                <p>Business</p>
+                <p>How Search works</p>
+                <p>Privacy</p>
+                <p>Terms</p>                    
+                <p>Settings</p>
+            </ul>
         </footer>
     </div>
     

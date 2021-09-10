@@ -1,5 +1,27 @@
 .topNav {
-    display: inline;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    width: 100%;
+    background: #cacaca;
+    margin: 0;
+    padding: 0;
+}
+
+.topNav li {
+    display: inline-block;
+    flex: 0 1 auto;
+    list-style-type: none;
+    background: #fafafa;
+}
+
+.topNav li img {
+    max-height: 12px;
+    max-width: 12px;
+}
+
+.topNavRight {
+    margin-right: 20px;
 }
 
 .appList {
@@ -8,19 +30,24 @@
 }
 
 .mainPageLogo {
+    /*background-color: lightseagreen;*/
     display: block;
     max-width: 400px;
     max-height: 400px;
     width: 50%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 100px;
     height: auto;
 }
 
 .searchWrapper {
+    /*background-color: lightskyblue;*/
     position: relative;
     display: flex;
-    min-width: 100px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .magnifyingIcon {
@@ -50,24 +77,15 @@
 .searchBar:hover, .searchBar:focus {
     box-shadow: 1px 1px 1px 1px rgb(236, 236, 236);
 }
-.entireFooter {
-    background-color: lightgrey;
-}
-.upFooter {
-    margin: auto;
-}
 
-.upperFooter {
-    color: grey;
-    text-align: center;
-}
-
-.lowFooter {
-    color: grey;
+.footer {
+    background-color: lightgreen;
+    position: fixed;
+    bottom: 5px;
+    display: inline;
     width: 100%;
-    text-align: center;
 }
 
-.lowerFooter {
-    display: inline;    
+.footer p {
+    display: inline;
 }
